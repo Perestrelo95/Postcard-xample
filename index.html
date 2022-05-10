@@ -1,35 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="styles.css" />
-		<title>Document</title>
+		<meta charset-"utf-8">
+		<meta name="viewport" content=" width=device-width" />
+		<title>The postcard</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet" />
 	</head>
 	<body>
-		<div class="postcard">
-			<div class="postcard-header">
-				<h1>My Postcard</h1>
-				<img src="https://assets.breatheco.de/apis/img/icon/4geeks.png" />
-			</div>
-
-			<div class="postcard-body">
-				<div class="body-left">
-					I will be on the left>
-					<p>Look how awesome this is a postcard that i created using html5 and css3 during my 4geeks academy course</p>
-					<p>This is so cool, cant wait to starting doing more stuff!</p>
+		<section>
+			<div class="postcard">
+				<div class="postcard-encabezado">
+					<h1>
+						My Postcard
+						<img src="https://assets.breatheco.de/apis/img/icon/4geeks.png" />
+					</h1>
 				</div>
-				<div class="body-right">
-					I will be on the right>
-					<input type="text" placeholder="Some name" />
-					<input type="text" placeholder="Some email" />
-					<input type="text" placeholder=" some comment" />
+				<div class="postcard-body">
+					<div class="izquierda">
+						<p>Look how awesome! This is a postcard that i created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
+						<p>This is so cool, cant wait to start doing more stuff!</p>
+					</div>
+					<div class="derecha">
+						<input type="text" name="" placeholder="Some name" />
+						<input type="text" name="" placeholder="Some email" />
+						<input type="text" name="" placeholder="Some content" />
+					</div>
+				</div>
+				<div class="postcard-boton">
+					<input type="submit" value="Send My Postcard" />
 				</div>
 			</div>
-
-			<div class="postcard-footer">
-				<input type="button" value="Send my postcard" onclick="msg()" />
-			</div>
-		</div>
+		</section>
 	</body>
 </html>
